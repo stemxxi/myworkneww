@@ -121,6 +121,7 @@
     .header__content-title{
         font-size: 25px;
         padding: 27px;
+        line-height: 35px;
     }
     .header__content-text{
         padding: 25px;
