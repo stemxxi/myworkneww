@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Work</title>
+  <link rel="icon" href="images/logo_light.png">
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a href="" class="header__logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa header__toggler"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li>
+              <a class="header__link" href="#aboutme">Обо мне</a>
+            </li>
+            <li>
+              <a class="header__link" href="#myworks">Работы</a>
+            </li>
+            <li>
+              <a class="header__button" href="tel:+998909526136">Заказать</a>
+            </li>
+            <li>
+              <a class="header__phone fa" href="tel:+998909526136"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="header__content">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="header__content-items d-flex justify-content-between">
+                <div class="header__content-left">
+                  <p class="header__content-text">Front-end Разработка</p>
+                  <h2 class="header__content-title">
+                    Адаптивная кроссбраузернаю вёрстка, совместимая с современными браузерами.
+                  </h2>
+                  <a href="tel:+998909526136" class="header__content-link">CONTACT NOW</a>
+                  <div class="header__content-skills d-flex justify-content-between">
+                    <div class="header__content-skill">
+                      <img src="images/html.png" alt="html" class="header__content-html">
+                      <h4 class="header__skill-title">HTML</h4>
+                    </div>
+                    <div class="header__content-skill">
+                      <img src="images/css.png" alt="css" class="header__content-css">
+                      <h4 class="header__skill-title">CSS</h4>
+                    </div>
+                    <div class="header__content-skill d-flex flex-column align-items-center">
+                      <img src="images/bootstrap.png" alt="bootstrap" class="header__content-bootstrap">
+                      <h2 class="header__skill-title">bootstrap 5</h2>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="header__content-right">
+                  <img src="images/header__slide1.png" alt="" class="header__content-img w-100">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="header__content-items d-flex justify-content-between">
+                <div class="header__content-left">
+                  <p class="header__content-text">Front-end Разработка</p>
+                  <h2 class="header__content-title"> Разработка веб-сайтов и сервисов любой сложности.</h2>
+                  <a href="tel:+998909526136" class="header__content-link">CONTACT NOW</a>
+                  <div class="header__content-skills d-flex justify-content-between">
+                    <div class="header__content-skill">
+                      <img src="images/html.png" alt="html" class="header__content-html">
+                      <h4 class="header__skill-title">HTML</h4>
+                    </div>
+                    <div class="header__content-skill">
+                      <img src="images/css.png" alt="css" class="header__content-css">
+                      <h4 class="header__skill-title">CSS</h4>
+                    </div>
+                    <div class="header__content-skill d-flex flex-column align-items-center">
+                      <img src="images/bootstrap.png" alt="bootstrap" class="header__content-bootstrap">
+                      <h2 class="header__skill-title">bootstrap 5</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="header__content-right">
+                  <img src="images/header__slide2.png" alt="" class="header__content-img w-100">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="rectangle rectangle_1"></div>
+    <div class="rectangle rectangle_2"></div>
+    <div class="rectangle rectangle_3"></div>
+    <div class="rectangle rectangle_4"></div>
+  </header>
+
+
+  <main class="main">
+    <section class="main__about" id="aboutme">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 position-relative">
+            <p class="main__about-text position-absolute">my
+              work for <span class="main__about-span position-absolute">5+</span></p>
+            <img src="images/mywork-img.png" alt="about-me" class="main__about-img w-100">
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="main__about-content">
+              <h2 class="main__about-title">Обо мне</h2>
+              <p class="main__about-description">Привет, меня зовут Садыков Тимур, Я Front-End Developer.
+              </p>
+              <p class="main__about-description"> Разрабатываю только качественные и В срок - вёрстка сайтов с чистым кроссбраузерным валидным кодом. Владею такими технологиями как БЭМ, CSS3\HTML5, Базовый JavaScript, jQuery.</p>
+              <p class="main__about-description"> Собираю макеты использя кросс-платформенный онлайн-сервис для дизайнеров интерфейсов и веб-разработчиков - Figma и Adobe Photoshop</p>
+              <p class="main__about-description">Моя цель - предоставить лучшую услугу на рынке!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="images/shape_1.png" alt="" class="shape shape_1">
+      <div class="rectangle rectangle_5"></div>
+    </section>
+
+    <section class="capabilities">
+      <div class="container">
+        <h2 class="capabilities__title">Умения</h2>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <div class="accordion__description w-100">
+                      <div class="accordion__info d-flex align-items-center ">
+                        <img src="images/html.png" alt="" class="accordion__logo">
+                        HTML
+                        <span class="accordion__arrow fa text-end ms-auto"></span>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Отличное знание HTML, CSS. Опыт работы с GIT.Верстка адаптивных и кросс-браузерных лендингов по макетам из Figma. Тестирование страниц на кросс-браузерность (поддержка только современных браузеров) и адаптивность(проверка на андроидах и IOS). Использование методологии БЭМ.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <div class="accordion__description w-100">
+                      <div class="accordion__info d-flex align-items-center">
+                        <img src="images/css.png" alt="" class="accordion__logo">
+                        CSS
+                        <span class="accordion__arrow fa text-end ms-auto"></span>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Умение работы с flexbox а также умею делать CSS-анимации и использую БЭМ. Владею библиотекой Bootstrap.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <div class="accordion__description w-100">
+                      <div class="accordion__info d-flex align-items-center">
+                        <img src="images/bootstrap.png" alt="" class="accordion__logo">
+                        bootstrap 5
+                        <span class="accordion__arrow fa text-end ms-auto"></span>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Быстрая адаптивная верстка сайта. Знание основных классов и компонентов Bootstrap.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <div class="accordion__description w-100">
+                      <div class="accordion__info d-flex align-items-center">
+                        <img src="images/Javascript.png" alt="" class="accordion__logo">
+                        JavaScript
+                        <span class="accordion__arrow fa text-end ms-auto"></span>
+                      </div>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Базовые знания JS. Создание анимации с помощью JS. jQuery
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="images/capabities-img.png" alt="" class="w-100">
+          </div>
+        </div>
+      </div>
+      <div class="rectangle rectangle_6"></div>
+    </section>
+
+    <section class="main__works" id="myworks">
+      <div class="container">
+        <h2 class="main__works-title">Работы</h2>
+        <div class="row">
+          <ul class="nav nav-pills col-xl-3 main__works-list flex-column">
+            <li class="main__works-item">
+              <a class="main__works-link active" aria-current="page" href="#nike" data-bs-toggle="pill">My Work</a>
+            </li>
+            <li class="main__works-item">
+              <a class="main__works-link" href="#TNW" data-bs-toggle="pill">The news Web</a>
+            </li>
+            <li class="main__works-item">
+              <a class="main__works-link" href="#bluemarketing" data-bs-toggle="pill">Street 88</a>
+            </li>
+            <li class="main__works-item">
+              <a class="main__works-link" href="#airpods" data-bs-toggle="pill">Boulevard Market</a>
+            </li>
+            <li class="main__works-item">
+              <a class="main__works-link" href="#vuecinema" data-bs-toggle="pill">Vue cinema</a>
+            </li>
+            <li class="main__works-item">
+              <a class="main__works-link" href="#OpenShop" data-bs-toggle="pill">Open Shop</a>
+            </li>
+          </ul>
+          <div class="tab-content col-xl-9">
+            <div class="tab-pane main__works-content active fade show" id="nike">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-4">
+                  <img src="images/Frame 2.png" alt="" class="main__works-img w-100 h-100">
+                </div>
+                <div class="col">
+                  <h3 class="main__works-name">My Work Layout</h3>
+                  <p class="main__works-description">Адаптивная верстка Lending Page MyWork
+                  </p>
+                    <a href="" class="main__works-btn">Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane main__works-content fade" id="TNW">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-4">
+                  <img src="images/TNW.png" alt="" class="main__works-img w-100 h-100">
+                </div>
+                <div class="col">
+                  <h3 class="main__works-name">TNW Layout</h3>
+                  <p class="main__works-description">Адаптивная верстка Новостного-агенства "TNW".
+                  </p>
+                    <a href="https://stemxxi.github.io/newmarketstreet/" class="main__works-btn">details</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane main__works-content fade" id="bluemarketing">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-4">
+                  <img src="images/Street88.png" alt="" class="main__works-img w-100 h-100">
+                </div>
+                <div class="col">
+                  <h3 class="main__works-name">Street 88</h3>
+                  <p class="main__works-description"> Адаптивная верстка Интернет-магазина еды "Street 88".
+                  </p>
+                
+                    <a href="https://stemxxi.github.io/streeet88/" class="main__works-btn">details</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane main__works-content fade" id="airpods">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-4">
+                  <img src="images/Boulevard market.png" alt="" class="main__works-img w-100 h-100">
+                </div>
+                <div class="col">
+                  <h3 class="main__works-name">Boulevard market Layout</h3>
+                  <p class="main__works-description">Адаптивная верстка Интернет-Магазина Boulevard market.
+                  </p>
+                  
+                    <a href="https://stemxxi.github.io/IPHONE/" class="main__works-btn">details</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane main__works-content fade" id="vuecinema">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-4">
+                  <img src="images/Vue Cinemas.png" alt="" class="main__works-img w-100 h-100">
+                </div>
+                <div class="col">
+                  <h3 class="main__works-name">Vue Cinema Layout</h3>
+                  <p class="main__works-description">Адаптивная, Оптимизированная верстка кино-сайта Vue Cinema.
+                  </p>
+                  
+                    <a href="https://stemxxi.github.io/vuecinemaneww/#films" class="main__works-btn">details</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane main__works-content fade" id="OpenShop">
+              <div class="row">
+                <div class="col-12 col-lg-3 col-md-4">
+                  <img src="images/OpenShop.png" alt="" class="main__works-img w-100 h-100">
+                </div>
+                <div class="col">
+                  <h3 class="main__works-name">Open Shop Layout</h3>
+                  <p class="main__works-description">Адаптивная верстка Интернет-Магазина Open-Shop</p>
+                  
+                    <a href="https://stemxxi.github.io/OPENSHOPNEW/" class="main__works-btn">details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img src="images/shape_2.png" alt="" class="shape shape_2 ">
+      <div class="rectangle rectangle_7"></div>
+      <div class="rectangle rectangle_8"></div>
+      <div class="rectangle rectangle_9"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="col-xl-6 ms-auto text-center">
+        <a href="" class="footer__logo header__logo"></a>
+        <ul class="footer__list d-flex justify-content-around flex-wrap">
+          <li><a href="" class="footer__link">Обо мне</a></li>
+          <li><a href="" class="footer__link">Работы</a></li>
+          <li><a href="" class="footer__link">Контакты</a></li>
+        </ul>
+        <div class="d-flex justify-content-around flex-wrap">
+          <a href="tel:+998909526136" class="footer__contact">+998 90 952-61-36</a>
+          <a href="mailto:timurkakhkharov@gmail.com" class="footer__contact">timurkakhkharov@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="rectangle rectangle_10"></div>
+  </footer>
+
+  <script src="libs/script.js"></script>
+  <script src="libs/index.js"></script>
+  <script src="libs/bootstrap.min.js"></script>
+</body>
+
+</html>
