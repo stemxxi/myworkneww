@@ -112,4 +112,17 @@
     .main__about-btn {
         margin: auto;
     }
+    .footer__contact{
+        font-size: 14px; 
+    }
+    .footer__link{
+        font-size: 14px;
+    }
+    .header__content-title{
+        font-size: 25px;
+        padding: 27px;
+    }
+    .header__content-text{
+        padding: 21px;
+    }
 }

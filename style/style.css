@@ -19,7 +19,7 @@
 }
 
 body {
-    background: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 /* HEADER START */
@@ -29,7 +29,7 @@ body {
 }
 
 .header__logo::before {
-    content: url('../images/logo_light.png');
+    content: url('../images/logo_light.png'); 
 }
 
 
